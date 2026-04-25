@@ -43,9 +43,9 @@ a{
     font-size: 0.95rem;
     font-weight: 500;
 }
-a:hover{
+/* a:hover{
     color: #facc15;
-}
+} */
 ul li{
     list-style-type: none;
 }
