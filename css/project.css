@@ -1,0 +1,107 @@
+.project{
+    margin: 8rem 4rem;
+}
+.project > div{
+    max-width: 80rem;
+    margin: 0 auto;
+    
+}
+.project-intro{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+.project-intro h2{
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: white;
+
+}
+.project-intro p{
+    max-width: 36rem;
+    margin: auto;
+}
+
+.project-card > div{
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    background-color: rgba(255, 255, 255, 0.05);
+    overflow: hidden;
+    transition: transform 0.5s ease-out;
+    border-radius: 15px;
+}
+
+.project-card{
+    display: grid;
+    gap: 2rem;
+    border-radius: 16px;
+   
+    
+}
+.project-card > div:hover{
+    transform: scale(1.05);
+}
+
+
+
+.project-card img{
+    width: 100%;
+    object-fit: cover;
+    height: 13rem;
+    transition: transform 0.5s ease-out;
+    border-radius: 15px;
+}
+.project-card img:hover{
+    transform: scale(1.05);
+}
+.project-content{
+    padding: 1.5rem;
+}
+
+.project-content p{
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+.project-content h3{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+.project-content div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+.project-content div span{
+    font-size: 0.75rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.project-content button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    gap: 0.5rem;
+    padding: 0.75rem 0;
+    font-weight: 500;
+    transition: background-color 0.2s ease-in-out;
+}
+.project-content button:hover{
+    background-color: rgba(255, 215, 0, 0.9);
+}
+
+@media(min-width:768px){
+    .project-intro h2{
+        font-size: 3rem;
+    }
+    .project-card{
+        grid-template-columns: repeat(3,1fr);
+        gap: 2rem;
+    }
+}

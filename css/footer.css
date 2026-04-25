@@ -1,0 +1,58 @@
+.footer{
+    padding: 6rem 1rem 2.5rem 1rem;
+}
+.footer > div{
+    max-width: 80rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer div nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.footer div nav a:hover{
+    color: #facc15;
+}
+.footer a{
+    color: #9ca3af;
+}
+
+.footer h3{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+}
+
+.footer div > :nth-child(3){
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 3.5rem;
+}
+.footer div > :nth-child(3) a{
+    font-size: 1.4rem;
+}
+
+.footer div > :nth-child(3) a:hover{
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+.footer p{
+    font-size: 0.875rem;
+}
+
+@media(min-width:768px){
+    .footer h3{
+        font-size: 2.25rem;
+        line-height: 2.25rem;
+    }
+}
+
+
